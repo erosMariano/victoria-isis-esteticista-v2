@@ -359,9 +359,14 @@ h4 {
 .text-about-me {
   color: #fff;
   font-family: Poppins;
-  font-size: 28px;
+  font-size: 24px;
   margin: 0;
   padding: 0;
+  font-weight: 300;
+  line-height: normal;
+}
+.text-about  p ~ p{
+  margin-bottom: 20px;
 }
 
 .head-line-txt {
@@ -564,7 +569,7 @@ a:hover {
   .content-about .head-line img {
     width: 100%;
   }
-  .content-about h1 {
+  .content-about h2 {
     width: 100%;
   }
   .about-me {
@@ -667,7 +672,7 @@ a:hover {
     width: 48px;
   }
 
-  .pacotes h1 {
+  .pacotes h2 {
     width: 100%;
   }
   .pacotes .line {
@@ -681,7 +686,7 @@ a:hover {
     flex-direction: column;
   }
 
-  .content-feedback h1 {
+  .content-feedback h2 {
     width: 100%;
   }
   .content-feedback .line {
@@ -778,7 +783,7 @@ a:hover {
     font-size: 16px;
     padding: 16px;
   }
-  .title-line h1 {
+  .title-line h2 {
     width: 100%;
     font-size: 32px;
   }

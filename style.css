@@ -711,6 +711,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    gap: 8px;
   }
   .container {
     padding: 0 16px;

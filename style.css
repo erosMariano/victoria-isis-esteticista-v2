@@ -605,16 +605,26 @@ a:hover {
   nav.desktopHidden.active {
     left: 0;
   }
+  .mobile-hidden{
+    display: none;
+  }
   .openMenu.menuActive{
-    display: block;
+    display: flex;
   }
   .openMenu{
     position: relative;
     padding: 20px;
     text-align: right;
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
   }
   .openMenu img{
     width: 30px;
+  }
+  .openMenu .logo{
+    flex: 1;
   }
   .close {
     position: absolute;
@@ -788,8 +798,6 @@ a:hover {
 @media(max-width: 500px){
   .swiper-wrapper-container .card{
     width: auto;
-  }
-  .buttons-left-right{
-    margin-top: -33px;
+    height: auto;
   }
 }
